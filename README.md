@@ -7,10 +7,10 @@
 ## Usage
 Get the image:
 ```
-docker pull korekontrol/ubuntu-java-python3
+docker pull wgq0335/ubuntu-java-python3
 ```
 
 Use it in `Dockerfile`:
 ```
-FROM korekontrol/ubuntu-java-python3
+FROM wgq0335/ubuntu-java-python3
 ```
