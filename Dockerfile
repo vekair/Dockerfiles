@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-# Setup python and java and base system
+# 设置Python和Java和基本系统
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG=en_US.UTF-8
 

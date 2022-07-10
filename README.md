@@ -1,16 +1,14 @@
 # docker-ubuntu-java-python3
-基于Ubuntu的基本docker映像，带有Java 8（openjdk）和Python 3（已预装pipandrequests模块）。它还包括主管，可在容器内方便地启动服务。
-# 声明
-基于https://github.com/korekontrol/docker-ubuntu-java-python3
-进行的拓展开放的，如果侵权私信我删除。
+基于Ubuntu的基本Docker映像，带有Java 8（OpenJDK）和Python 3（PIP和请求模块已预装）。它还包括在容器内方便启动服务的主管。
+
 
 ## Usage
 Get the image:
 ```
-docker pull wgq0335/ubuntu-java-python3
+docker pull vekair/ubuntu-java-python3
 ```
 
 Use it in `Dockerfile`:
 ```
-FROM wgq0335/ubuntu-java-python3
+FROM vekair/ubuntu-java-python3
 ```
