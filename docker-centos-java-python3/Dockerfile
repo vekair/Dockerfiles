@@ -9,8 +9,9 @@ RUN wget https://www.python.org/ftp/python/3.9.17/Python-3.9.17.tgz && \
     ./configure --enable-optimizations && \
     make altinstall && \
     cd .. && \
-    rm -rf Python-3.9.17* \
-    ln -s /usr/local/bin/python3.9 /usr/bin/python3
+    rm -rf Python-3.9.17* && \
+    ln -s /usr/local/bin/python3.9 /usr/bin/python3 && \
+    ln -s /usr/local/bin/pip3.9 /usr/bin/pip3
 
 RUN yum install -y java-1.8.0-openjdk
 
